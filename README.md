@@ -7,3 +7,4 @@
 3 - Créer slice (reducers)
 4 - "useDispatch" pour lancer les reducers
 5 - "useSelector" pour puiser la data dans le store
+# redux-toolkit
