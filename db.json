@@ -47,18 +47,6 @@
       "year": "2021",
       "photo": "https://picsum.photos/400/470",
       "id": 9
-    },
-    {
-      "artist": "Polo",
-      "year": "2022",
-      "photo": "https://picsum.photos/400/335",
-      "id": 10
-    },
-    {
-      "artist": "Marco",
-      "year": "2015",
-      "photo": "https://picsum.photos/400/345",
-      "id": 11
     }
   ]
 }

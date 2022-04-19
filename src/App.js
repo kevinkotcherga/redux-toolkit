@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setPicturesData } from "./feature/picturesSlice";
 
 const App = () => {
-  // useSelector permet de faire appel aux données dans le store
+  // useSelector permet de faire appel aux données dans le store pour l'utiliser dans l'application
   // state est en paramètre, une fois dans le state la data de pictures.pictures est récupéré
   const picsData = useSelector((state) => state.pictures.pictures);
 	// useDispatch remplace setPicsData puisque nous utilisons redux :

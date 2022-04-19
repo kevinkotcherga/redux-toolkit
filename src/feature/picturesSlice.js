@@ -2,11 +2,14 @@ import { createSlice } from "@reduxjs/toolkit";
 
 // createSlice fusionne l'action et le reducer
 export const picturesSlice = createSlice({
+  // 1) UN NOM
   name: 'pictures',
+  // 2) STATE DE BASE
   initialState: {
     // Le state de base est nul, il sera ensuite incrémenté avec la base de données
     pictures: null,
   },
+  // 3) REDUCERS
   reducers: {
     // GET
     setPicturesData: (state, action) => {
@@ -37,10 +40,17 @@ export const picturesSlice = createSlice({
 				}
 			});
     },
+    // DELETE
+    deletePicture: (state, action) => {
+      // Le state est filtré, chaque élement qui n'est pas égal à l'id envoyé est gardé
+      state.pictures = state.pictures.filter((pictureData) => pictureData.id !== action.payload);
+    },
   },
 });
 
+// 4) EXPORT
 // Les reducers sont exportés pour être utilisé dans les composants
-export const { setPicturesData, addPicture, editPicture } = picturesSlice.actions;
+export const { setPicturesData, addPicture, editPicture, deletePicture } =
+	picturesSlice.actions;
 // pisctureSlice
 export default picturesSlice.reducer;
