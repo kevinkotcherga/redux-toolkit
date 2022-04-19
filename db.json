@@ -4,7 +4,6 @@
       "artist": "Paulin Frustro",
       "year": "2021",
       "photo": "https://picsum.photos/400/352",
-      "addedDate": 1649240229849,
       "id": 1
     },
     {
@@ -14,7 +13,7 @@
       "id": 3
     },
     {
-      "artist": "Samedixs",
+      "artist": "Samedixsp",
       "year": "2010",
       "photo": "https://picsum.photos/400/396",
       "id": 4
@@ -48,6 +47,18 @@
       "year": "2021",
       "photo": "https://picsum.photos/400/470",
       "id": 9
+    },
+    {
+      "artist": "Polo",
+      "year": "2022",
+      "photo": "https://picsum.photos/400/335",
+      "id": 10
+    },
+    {
+      "artist": "Marco",
+      "year": "2015",
+      "photo": "https://picsum.photos/400/345",
+      "id": 11
     }
   ]
 }
